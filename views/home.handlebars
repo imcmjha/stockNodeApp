@@ -1,0 +1,10 @@
+<div class="jumbotron mt-4">
+  <h2>{{ stock.companyName }} ({{stock.symbol}})</h2>
+  <h6><strong>Latest Price:</strong> ${{ stock.latestPrice }}</h6>
+  <h6><strong>Previous Close:</strong> ${{ stock.previousClose }}</h6>
+  <h6><strong>Percent Change:</strong> {{ stock.change }}%</h6>
+  <h6><strong>Market Cap:</strong> ${{ stock.marketCap }}</h6>
+  <h6><strong>YTD Change:</strong> {{ stock.ytdChange }}%</h6>
+  <h6><strong>52wk High:</strong> ${{ stock.week52High }}</h6>
+  <h6><strong>52wk Low:</strong> ${{ stock.week52Low }}</h6>
+</div>
